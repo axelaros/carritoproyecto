@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    #cartelera{
+    width:100%;
+    height: 100%;
+    background-color: beige;
+    display: flex;
+   flex-wrap: wrap;
+
+
+}
+header{
+    height: 200px;
+    width: 100%;
+
+}
+main{
+    width: 100%;
+    height: 100%;
+
+}
+footer{
+    height: 200px;
+    width:100%;
+
+}
+.contenedorProductos {
+    height: 100%;
+    width: 100%;
+
+}
+.cards{
+    height: 220px;
+    width: 220px;
+    border:1px solid black;
+    padding: 5px;
+    margin: 5px;
+    list-style: none;
+
+}
+.card {
+    padding: 5px;
+}
+.contenedor {
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    margin: 35px;
+    font-size: 25px;
+    
+}
